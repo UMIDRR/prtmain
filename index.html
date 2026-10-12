@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Front-end developer portfolio: interaktiv veb, 3D və UI/UX"
+    />
+    <title>Umid Rzazada — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="load">
+    <div id="ld"><b id="pc">000</b><i id="pl"></i></div>
+    <div id="cu">
+      <svg viewBox="0 0 40 40" width="40" height="40" aria-hidden="true">
+        <g id="cgA">
+          <path id="paA" d="" />
+          <circle r="2.2" />
+        </g>
+        <g id="cgB">
+          <path id="paB" d="" />
+          <circle r="1.6" />
+        </g>
+      </svg>
+    </div>
+    <canvas id="gl" aria-hidden="true"></canvas>
+    <nav id="nv">
+      <a class="lg" href="#top"><i></i>U.R</a>
+      <div>
+        <a href="#profil"><s>01</s>Profil</a
+        ><a href="#layiheler"><s>02</s>Layihələr</a
+        ><a href="#elaqe"><s>03</s>Əlaqə</a>
+      </div>
+    </nav>
+    <div class="hud" aria-hidden="true">
+      <span id="h1n">01</span> / <span id="h2n">GİRİŞ</span> <em></em>
+      <span id="hpc">000%</span>
+    </div>
+
+    <header class="hero" id="top" data-s="0" data-n="Giriş">
+      <div class="hm"><span>Umid Rzazada</span><span>Portfolio</span></div>
+      <h1>
+        <span>İdeyadan reallığa</span
+        ><span class="ln"
+          ><span>veb həllər<b>.</b></span></span
+        >
+      </h1>
+      <p class="lead">
+        Full-Stack Developer & Tech Lead. Verilənlər bazasından tutmuş
+        interfeysə qədər bütün sistemləri sıfırdan inşa edirəm: təmiz
+        arxitektura, yüksək performans və immersiv 3D interfeyslər.
+      </p>
+      <div class="strip">
+        <div><small>Lokasiya</small>Azerbaijan</div>
+        <div><small>Rol</small>Full Stack developer</div>
+        <div><small>Status</small><i class="on"></i>Layihələrə açığam</div>
+        <div><small>Skrol</small>Aşağı ↓</div>
+      </div>
+    </header>
+
+    <section id="profil" data-s="1" data-n="Profil">
+      <div class="sh"><span>01</span><b>Profil</b></div>
+      <div class="ab-grid">
+        <div class="ab-vis rv">
+          <div class="ab-frame">
+            <svg id="abg" viewBox="-100 -100 200 200" aria-hidden="true"></svg>
+            <div class="mono" id="mono"></div>
+            <i class="c tl"></i><i class="c br"></i>
+          </div>
+          <div class="ab-badge" id="bdg"></div>
+        </div>
+        <div class="ab-txt">
+          <h2 class="ab-h rv" id="abh"></h2>
+          <div id="abp"></div>
+          <div class="skills rv" id="skl"></div>
+        </div>
+      </div>
+      <div class="nums rv">
+        <div><b data-n="3">0</b><small>İl təcrübə</small></div>
+        <div>
+          <b data-n="25" id="npj">0</b><small>Tamamlanmış layihə</small>
+        </div>
+        <div><b data-n="22" id="nsk">0</b><small>Texnologiya</small></div>
+      </div>
+      <div class="cap4 rv">
+        <div>
+          <s>A</s>
+          <h3>Frontend</h3>
+          <p>React, TypeScript, responsiv və əlçatan interfeys.</p>
+        </div>
+        <div>
+          <s>B</s>
+          <h3>Server və API</h3>
+          <p>
+            Yüksək performanslı backend sistemləri, verilənlər bazası və
+            təhlükəsizlik.
+          </p>
+        </div>
+        <div>
+          <s>C</s>
+          <h3>Dizayn sistemi</h3>
+          <p>Komponent kitabxanası, token və vahid dil.</p>
+        </div>
+        <div>
+          <s>D</s>
+          <h3>Performans</h3>
+          <p>Sürətli yüklənmə, 60 FPS animasiya, optimizasiya.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="layiheler" data-s="2" data-n="Layihələr">
+      <div class="sh"><span>02</span><b>Layihələr</b></div>
+      <div class="rows rv" id="rows"></div>
+    </section>
+    <div class="pvw" id="pvw" aria-hidden="true">
+      <canvas id="mc"></canvas><span class="cap" id="cap">MEXANİZM 01</span>
+    </div>
+
+    <footer id="elaqe" data-s="3" data-n="Əlaqə">
+      <div class="sh"><span>03</span><b>Əlaqə</b></div>
+      <h2 class="rv">Birgə<br />işləyək.</h2>
+      <div class="mw rv">
+        <a class="mail" href="mailto:umidrzayev52@gmail.com">umidrzayev52@gmail.com</a
+        ><button class="cp" id="cp">Kopyala</button>
+      </div>
+      <ul class="lk rv">
+        <li>
+          <a href="https://github.com/UMIDRR" target="_blank" rel="noopener"
+            ><span>GitHub</span><i>↗</i></a
+          >
+        </li>
+        <li>
+          <a href="http://linkedin.com/in/umid-rzazada-4a9563357" target="_blank" rel="noopener"
+            ><span>LinkedIn</span><i>↗</i></a
+          >
+        </li>
+        <li>
+          <a href="https://t.me/Rzayeff017" target="_blank" rel="noopener"
+            ><span>Telegram</span><i>↗</i></a
+          >
+        </li>
+      </ul>
+      <div class="ft">
+        <span>© 2020 Umid Rzazada</span><span id="clk">Bakı</span
+        ><button id="up">Yuxarı ↑</button>
+      </div>
+    </footer>
+    <div id="toast" role="status">E-poçt kopyalandı</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="db.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
